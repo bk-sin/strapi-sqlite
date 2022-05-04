@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Mensajes de usuarios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullName": {
+      "type": "string",
+      "pluginOptions": {},
+      "label": "Nombre completo",
+      "required": true,
+      "info": {
+        "description": "Nombre completo del contacto",
+        "placeholder": "Nombre completo",
+        "errorMessages": {
+          "required": "El nombre completo es requerido"
+        },
+        "displayName": "Nombre completo",
+        "help": "Nombre completo del contacto"
+      },
+      "displayName": "Nombre completo"
+    },
+    "email": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "question": {
+      "type": "text",
+      "pluginOptions": {}
+    }
+  }
+}

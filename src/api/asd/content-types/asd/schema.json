@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "asds",
+  "info": {
+    "singularName": "asd",
+    "pluralName": "asds",
+    "displayName": "asd"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

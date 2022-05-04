@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_contact_info_contactinfos",
+  "info": {
+    "displayName": "Informacion de contacto",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contact": {
+      "type": "string",
+      "displayName": "Informacion de contacto"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "phone",
+        "mail",
+        "location",
+        "link"
+      ]
+    }
+  }
+}

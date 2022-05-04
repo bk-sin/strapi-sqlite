@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_project_optional_features",
+  "info": {
+    "displayName": "Caracteristicas",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "default": "Caracteristica: Valor "
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    }
+  }
+}

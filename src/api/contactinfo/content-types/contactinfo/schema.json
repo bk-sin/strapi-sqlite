@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactinfos",
+  "info": {
+    "singularName": "contactinfo",
+    "pluralName": "contactinfos",
+    "displayName": "Informacion de contacto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactinfo": {
+      "displayName": "Informacion de contacto",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-info.contactinfo"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

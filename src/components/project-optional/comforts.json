@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_optional_comforts",
+  "info": {
+    "displayName": "Comodidades",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Comodidad",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

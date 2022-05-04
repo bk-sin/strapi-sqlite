@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "carousels",
+  "info": {
+    "singularName": "carousel",
+    "pluralName": "carousels",
+    "displayName": "Carousel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slides": {
+      "type": "dynamiczone",
+      "components": [
+        "project-optional.slide"
+      ],
+      "required": true,
+      "min": 1
+    }
+  }
+}

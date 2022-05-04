@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sociallinks",
+  "info": {
+    "singularName": "sociallink",
+    "pluralName": "sociallinks",
+    "displayName": "Redes sociales",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

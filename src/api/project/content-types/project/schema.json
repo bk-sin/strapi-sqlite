@@ -1,0 +1,100 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Proyectos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Título",
+      "maxLength": 60
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "default": "Subtítulo"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true,
+      "default": "Descripción"
+    },
+    "feat": {
+      "displayName": "Caracteristicas",
+      "type": "component",
+      "repeatable": true,
+      "component": "project-optional.features",
+      "required": false
+    },
+    "carousel": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "cvarquitectura",
+        "cvdesarrollos",
+        "cvworkplaces"
+      ],
+      "default": "cvarquitectura"
+    },
+    "title_dark": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "comfort": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project-optional.comforts"
+    },
+    "last_words": {
+      "type": "text"
+    },
+    "Seo": {
+      "displayName": "Seo",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "brochure": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "subcategory": {
+      "type": "enumeration",
+      "enum": [
+        "RESIDENCIAL",
+        "COMERCIAL",
+        "OFICINAS",
+        "GASTRONÓMICOS",
+        "SPACE PLANNING",
+        "DISCOTECAS",
+        "MUSEOS",
+        "HOTEL",
+        "SALUD",
+        "URBANISMO"
+      ]
+    }
+  }
+}
